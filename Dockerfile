@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.2
+ENV VERSION=0.0.4
 
 RUN gem install i18n_sync --version ${VERSION} --no-format-exec
 
